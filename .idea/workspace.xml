@@ -7,30 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7339edea-4594-4bed-a973-4933aae3720d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GithubTracker_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GithubTracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/githubers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/GithubersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/githubers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -346,12 +323,12 @@
       <workItem from="1562916187683" duration="152000" />
       <workItem from="1562916508827" duration="20125000" />
       <workItem from="1563178952160" duration="11000" />
-      <workItem from="1563178977301" duration="7308000" />
+      <workItem from="1563178977301" duration="7564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27889000" />
+    <option name="totallyTimeSpent" value="28145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
@@ -493,7 +470,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
