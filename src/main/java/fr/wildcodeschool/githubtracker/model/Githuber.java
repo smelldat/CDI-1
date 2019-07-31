@@ -56,4 +56,5 @@ public class Githuber {
     public void setAvatarUrl(String avatarUrl) {
         this.avatarUrl = avatarUrl;
     }
+
 }
