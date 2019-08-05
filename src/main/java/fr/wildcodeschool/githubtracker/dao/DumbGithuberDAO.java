@@ -1,7 +1,7 @@
 package fr.wildcodeschool.githubtracker.dao;
 
-import fr.wildcodeschool.githubtracker.model.Githuber;
 
+import fr.wildcodeschool.githubtracker.model.Githuber;
 import javax.enterprise.context.Dependent;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,6 +11,7 @@ import java.util.List;
 public class DumbGithuberDAO implements GithuberDAO {
 
 
+    @Override
     public List getGithubers() {
         Githuber andre = new Githuber("Andre", "dd@gmail.com", "haha", "dd33", "DD/img/bg.jpg");
         Githuber fabien = new Githuber("Fabien", "fabien@gmail.com", "hehe", "fab33", "fab");
@@ -30,4 +31,8 @@ public class DumbGithuberDAO implements GithuberDAO {
         return githubersList;
     }
 
+    @Override
+    public void saveGithuber(Githuber githuber) throws UnsupportedOperationException{
+
+    }
 }

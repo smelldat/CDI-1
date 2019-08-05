@@ -2,53 +2,48 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="GithubTracker:Web exploded" />
+      <artifact name="GithubTracker:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7339edea-4594-4bed-a973-4933aae3720d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" afterDir="false" />
+    <list default="true" id="d1ca839e-19ce-4a93-a0d4-9c14c1fe1f4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/InMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/ObjectMapperProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/track.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GithubTracker_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GithubTracker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/githubers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/githubers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/githubers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/GithubersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/GithubersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/GithubersServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/githubers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/githubers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package.json" />
-        <option value="Jsp File" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2.jar</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,25 +59,17 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1OUze5w3HO3hBWFzDIKBacOA22K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1P0Cd1sZ6sJCDsR0OmEWY8HzunB" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../React/my-travels" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/out/artifacts/GithubTracker_Web_exploded/WEB-INF/lib" />
-    </key>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,13 +83,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="GlassFish Server.Payara5">
-    <configuration name="Payara5" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.192.0" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11.0.3">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GithubTracker_Web_exploded/githubers" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+  <component name="RunManager">
+    <configuration name="GlassFish 5.192.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.192.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GithubTracker/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="GithubTracker:Web exploded">
+        <artifact name="GithubTracker:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -164,109 +150,24 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package" />
-      </method>
-    </configuration>
-    <configuration name="tomcat 8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="12">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GithubTracker_Web_exploded/githubers" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="GithubTracker:Web exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/GithubTracker_Web_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_GithubTracker_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35879" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="GithubTracker:Web exploded" />
+          <artifact name="GithubTracker:war exploded" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="GlassFish Server.Payara5" />
-      <item itemvalue="Tomcat Server.tomcat 8.0" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7339edea-4594-4bed-a973-4933aae3720d" name="Default Changelist" comment="" />
-      <created>1562915841205</created>
+      <changelist id="d1ca839e-19ce-4a93-a0d4-9c14c1fe1f4e" name="Default Changelist" comment="" />
+      <created>1565001710412</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562915841205</updated>
-      <workItem from="1562915845631" duration="293000" />
-      <workItem from="1562916187683" duration="152000" />
-      <workItem from="1562916508827" duration="20125000" />
-      <workItem from="1563178952160" duration="11000" />
-      <workItem from="1563178977301" duration="11323000" />
-      <workItem from="1563272431136" duration="198000" />
-      <workItem from="1563354530505" duration="1501000" />
-      <workItem from="1563370866644" duration="24000" />
-      <workItem from="1563529616774" duration="664000" />
-      <workItem from="1563538284279" duration="1347000" />
-      <workItem from="1563543536403" duration="6091000" />
-      <workItem from="1564047058170" duration="28296000" />
+      <updated>1565001710412</updated>
+      <workItem from="1565001711667" duration="2857000" />
     </task>
     <servers />
   </component>
@@ -283,82 +184,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>GithubTracker:Web exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web|GithubTracker</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

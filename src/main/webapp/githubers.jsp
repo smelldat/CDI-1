@@ -29,14 +29,14 @@
         </tr>
         </thead>
         <tbody>
-    <c:forEach items="${githubersList}" var="product">
+    <c:forEach items="${githubersList}" var="githuber">
         <tr>
             <th scope="row">- </th>
-            <td><c:out value="${product.id}" /></td>
-            <td><c:out value="${product.name}" /></td>
-            <td><c:out value="${product.email}" /></td>
-            <td><c:out value="${product.login}" /></td>
-            <td><c:out value="${product.avatarUrl}" /></td>
+            <td><c:out value="${githuber.id}" /></td>
+            <td><c:out value="${githuber.name}" /></td>
+            <td><c:out value="${githuber.email}" /></td>
+            <td><c:out value="${githuber.login}" /></td>
+            <td> <img style="width: 200px" src="${githuber.avatarUrl}"></td>
         </tr>
     </c:forEach>
         </tbody>

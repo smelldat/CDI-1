@@ -1,7 +1,5 @@
 package fr.wildcodeschool.githubtracker.controller;
 
-import fr.wildcodeschool.githubtracker.dao.DumbGithuberDAO;
-import fr.wildcodeschool.githubtracker.dao.GithuberDAO;
 import fr.wildcodeschool.githubtracker.model.Githuber;
 import fr.wildcodeschool.githubtracker.service.GithubersService;
 
@@ -17,9 +15,8 @@ import java.util.List;
 @WebServlet(name = "GithubersServlet", urlPatterns = "/githubers")
 public class GithubersServlet extends HttpServlet {
 
-    @Inject GithubersService service;
-
-
+    @Inject
+    private GithubersService service;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -28,6 +25,7 @@ public class GithubersServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         List<Githuber> githuber = service.getAllGithubers();
+
         request.setAttribute("githubersList", githuber);
         request.getRequestDispatcher("/githubers.jsp").forward(request, response);
     }
